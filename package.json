@@ -4,7 +4,7 @@
   "description": "Video chat app using Webrtc",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/A-jha383/webrtc-video-chat-app/issues"
   },
-  "homepage": "https://github.com/A-jha383/webrtc-video-chat-app#readme"
+  "homepage": "https://github.com/A-jha383/webrtc-video-chat-app#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1"
+  }
 }
