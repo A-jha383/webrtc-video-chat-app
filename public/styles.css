@@ -1,3 +1,4 @@
+
 body {
     background-color: rgb(221, 209, 209);
     font-family: "Helvetica";
@@ -69,13 +70,28 @@ body {
   #video-chat-room {
     display: flex;
     justify-content: center;
+    flex-direction: row;
   }
-  #user-video {
+
+  .flex-item-chatroom {
+    flex: 50%;
+    background-color: #f1f1f1;
+    margin: 10px;
     padding: 20px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
   }
-  #peer-video {
-    padding: 20px;
+
+  .flex-item-chatroom span {
+    margin-top: 8px;
+    vertical-align: middle;
   }
+
+  .flex-item-chatroom video {
+    padding: 0px;
+  }
+
   .btn-group {
     display: flex;
     justify-content: center;

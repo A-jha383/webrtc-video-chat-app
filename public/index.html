@@ -13,12 +13,18 @@
       <button id="join-button" class="joinButtom">Join</button>
     </div>
     <div id="video-chat-room">
-      <video id="user-video" muted="muted"></video>
-      <video id="peer-video"></video>
+      <div class="flex-item-chatroom">
+        <span>Local Video</span>
+        <video id="user-video" muted="muted"></video>
+      </div>
+      <div class="flex-item-chatroom">
+        <span>Remote Video</span>
+        <video id="peer-video"></video>
+      </div>
     </div>
     <div class="btn-group" id="chat-control-panel">
-      <button id="mute-button">Mute</button>
-      <button id="camera-button">Stop Camera</button>
+      <button id="mute-button">Mute</button>&nbsp;
+      <button id="camera-button">Stop Camera</button>&nbsp;
       <button id="leave-room-button">Leave Room</button>
     </div>
   </body>
